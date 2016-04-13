@@ -1,24 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url(http://fonts.googleapis.com/css?family=Alike);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
-body {
+#body1 {
   margin: 0;
   background-color: #d2691e;
 }
 
 header {
-  margin: 0 auto;
+  margin-right: 20px
   width: 1000px;
-  background-image: url(../images/black_beans.jpg);
 }
 
 h1 {
   text-align: center;
   margin: 0;
-  padding-top: .25em;
-  color: #b9b4b5;
-  font-size: 40px;
-  font-family: "Lato", sans-serif;
+  padding-top: .150em;
+  color:
+  font-size: 80px;
+  font-family: "Lobster", sans-serif;
   font-weight: 10px;
 }
 
@@ -27,7 +27,7 @@ h2 {
   margin: 0;
   padding-bottom: 1em;
   color: #141237;
-  font-size: 20px;
+  font-size: 41px;
   font-family: "Lato", sans-serif;
   font-weight: 10px;
 }
@@ -49,7 +49,6 @@ h3 {
 
 #MenuHeading{
   display: block;
-  background-color: FF3366;
   margin: 30 5px;
 }
 
@@ -71,4 +70,13 @@ h3 {
   width: 345px;
   display: inline-block !important;
   float: inherit !important;
+}
+
+#header{
+  background-image: url(../images/hummus.jpg);
+}
+
+div{
+  padding-left: 50px;
+  margin-left: 50px;
 }
