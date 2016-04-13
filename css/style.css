@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alike);
+
+body {
+  margin: 0;
+  background-color: #d2691e;
+}
+
+header {
+  margin: 0 auto;
+  width: 1000px;
+  background-image: url(../images/black_beans.jpg);
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: .25em;
+  color: #b9b4b5;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 1em;
+  color: #141237;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 10px;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #b9b4b5;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 10px;
+}
+
+#list1{
+  display: block-inline !important;
+  padding: 10px;
+}
+
+#MenuHeading{
+  display: block;
+  background-color: FF3366;
+  margin: 30 5px;
+}
+
+#apps
+{
+  display: inline-block !important;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 345px;
+  float: inherit !important;
+}
+
+#meals
+{
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 345px;
+  display: inline-block !important;
+  float: inherit !important;
+}
