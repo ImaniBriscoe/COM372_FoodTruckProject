@@ -16,7 +16,6 @@ h1 {
   text-align: center;
   margin: 0;
   padding-top: .150em;
-  color:
   font-size: 80px;
   font-family: "Lobster", sans-serif;
   font-weight: 10px;
@@ -74,9 +73,33 @@ h3 {
 
 #header{
   background-image: url(../images/hummus.jpg);
+  padding: 175px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-right: 50px;
 }
 
 div{
   padding-left: 50px;
   margin-left: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.active {
+    background-color: inherit;
+    color: white;
+}
+
+#Navigate{
+    margin: 0;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
